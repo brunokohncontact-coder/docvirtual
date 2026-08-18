@@ -1,0 +1,90 @@
+<!-- @dsCard group="Fundamentos" name="Cores" subtitle="Marca + tokens navy e accent" width="1120" height="550" -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Cores — Doc Virtual</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Didact+Gothic&display=swap">
+<style>
+    :root { color-scheme: light; }
+    body { margin: 0; font-family: Inter, system-ui, sans-serif; background: #ffffff;
+           color: #102a43; -webkit-font-smoothing: antialiased; }
+    a { color: #2563eb; } a:hover { color: #1d4ed8; }
+    .eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 0.14em;
+               text-transform: uppercase; color: #829ab1; }
+    .h { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; color: #102a43; }
+    .lead { font-size: 14px; line-height: 1.6; color: #486581; }
+    .meta { font-size: 12px; color: #829ab1; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .panel { border: 1px solid #d9e2ec; background: #ffffff; }
+
+    .frame { width: 1120px; height: 550px; box-sizing: border-box; padding: 36px 40px;
+              display: flex; flex-direction: column; gap: 22px; }
+</style>
+</head>
+<body>
+<div class="frame">
+<div style="display: flex; flex-direction: column; gap: 6px"><div class="eyebrow">Fundamentos</div><div class="h">Cores</div></div>
+  <div style="display: flex; flex-direction: column; gap: 10px">
+    <div class="eyebrow">Cores da marca</div>
+    <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px">
+      
+    <div class="panel" style="display: flex; flex-direction: column">
+      <div style="height: 84px; background: #054B90"></div>
+      <div style="padding: 12px 14px; display: flex; flex-direction: column; gap: 2px">
+        <div style="font-size: 13px; font-weight: 600">Azul Doc</div>
+        <div class="mono" style="font-size: 12px; color: #486581">#054B90</div>
+        <div class="meta" style="line-height: 1.45; margin-top: 2px">Extremo claro do degradê da nuvem</div>
+      </div>
+    </div>
+      
+    <div class="panel" style="display: flex; flex-direction: column">
+      <div style="height: 84px; background: #00366D"></div>
+      <div style="padding: 12px 14px; display: flex; flex-direction: column; gap: 2px">
+        <div style="font-size: 13px; font-weight: 600">Azul Navy</div>
+        <div class="mono" style="font-size: 12px; color: #486581">#00366D</div>
+        <div class="meta" style="line-height: 1.45; margin-top: 2px">Extremo escuro, assinatura GED e versão monocromática</div>
+      </div>
+    </div>
+      
+    <div class="panel" style="display: flex; flex-direction: column">
+      <div style="height: 84px; background: #737373"></div>
+      <div style="padding: 12px 14px; display: flex; flex-direction: column; gap: 2px">
+        <div style="font-size: 13px; font-weight: 600">Cinza lettering</div>
+        <div class="mono" style="font-size: 12px; color: #486581">#737373</div>
+        <div class="meta" style="line-height: 1.45; margin-top: 2px">Palavra “virtual”</div>
+      </div>
+    </div>
+      <div class="panel" style="display: flex; flex-direction: column">
+        <div style="height: 84px; background: linear-gradient(135deg, #054B90 0%, #00366D 100%)"></div>
+        <div style="padding: 12px 14px; display: flex; flex-direction: column; gap: 2px">
+          <div style="font-size: 13px; font-weight: 600">Degradê da nuvem</div>
+          <div class="mono" style="font-size: 12px; color: #486581">135°</div>
+          <div class="meta" style="line-height: 1.45; margin-top: 2px">Sempre do canto superior esquerdo para o inferior direito</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 10px">
+    <div class="eyebrow">Paleta do produto</div>
+    <div style="display: flex; gap: 18px">
+      <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 6px">
+        <div style="display: flex; height: 52px; border: 1px solid #d9e2ec"><div style="flex-grow: 1; background: #f0f4f8"></div><div style="flex-grow: 1; background: #d9e2ec"></div><div style="flex-grow: 1; background: #bcccdc"></div><div style="flex-grow: 1; background: #9fb3c8"></div><div style="flex-grow: 1; background: #829ab1"></div><div style="flex-grow: 1; background: #627d98"></div><div style="flex-grow: 1; background: #486581"></div><div style="flex-grow: 1; background: #334e68"></div><div style="flex-grow: 1; background: #243b53"></div><div style="flex-grow: 1; background: #102a43"></div><div style="flex-grow: 1; background: #0a1929"></div></div>
+        <div style="display: flex; justify-content: space-between">
+          <div style="font-size: 12px; font-weight: 500; color: #334e68">navy · 50 → 950</div>
+          <div class="meta mono">#f0f4f8 → #0a1929</div>
+        </div>
+      </div>
+      <div style="width: 320px; display: flex; flex-direction: column; gap: 6px">
+        <div style="display: flex; height: 52px; border: 1px solid #d9e2ec"><div style="flex-grow: 1; background: #60a5fa"></div><div style="flex-grow: 1; background: #3b82f6"></div><div style="flex-grow: 1; background: #2563eb"></div><div style="flex-grow: 1; background: #1d4ed8"></div></div>
+        <div style="display: flex; justify-content: space-between">
+          <div style="font-size: 12px; font-weight: 500; color: #334e68">accent · 400 → 700</div>
+          <div class="meta mono">#60a5fa → #1d4ed8</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="lead" style="border-top: 1px solid #d9e2ec; padding-top: 14px; max-width: none">O azul do logo e o accent do produto são cores diferentes e não se substituem: o logo nunca é pintado de <span class="mono" style="font-size: 13px; color: #102a43">#2563eb</span>, e botão não é pintado de <span class="mono" style="font-size: 13px; color: #102a43">#054B90</span>.</div>
+</div>
+</body>
+</html>
