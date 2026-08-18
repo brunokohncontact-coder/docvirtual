@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Logo Doc Virtual",
+    "path": "design-system/marca/logo-doc-virtual.html",
+    "subtitle": "Colorida, branca e monocromática",
+    "group": "Marca",
+    "viewport": {
+      "width": 760,
+      "height": 440
+    }
+  },
+  {
+    "name": "Logo Doc Virtual GED",
+    "path": "design-system/marca/logo-doc-virtual-ged.html",
+    "subtitle": "Lockup da plataforma",
+    "group": "Marca",
+    "viewport": {
+      "width": 880,
+      "height": 440
+    }
+  },
+  {
+    "name": "Símbolo",
+    "path": "design-system/marca/simbolo.html",
+    "subtitle": "Nuvem isolada para avatar e favicon",
+    "group": "Marca",
+    "viewport": {
+      "width": 620,
+      "height": 420
+    }
+  },
+  {
+    "name": "Variações",
+    "path": "design-system/marca/variacoes.html",
+    "subtitle": "Colorida, branca e monocromática × marca, GED e símbolo",
+    "group": "Marca",
+    "viewport": {
+      "width": 1120,
+      "height": 720
+    }
+  },
+  {
+    "name": "Cores",
+    "path": "design-system/fundamentos/cores.html",
+    "subtitle": "Marca + tokens navy e accent",
+    "group": "Fundamentos",
+    "viewport": {
+      "width": 1120,
+      "height": 550
+    }
+  },
+  {
+    "name": "Tipografia",
+    "path": "design-system/fundamentos/tipografia.html",
+    "subtitle": "Didact Gothic na marca, Inter no resto",
+    "group": "Fundamentos",
+    "viewport": {
+      "width": 1120,
+      "height": 640
+    }
+  },
+  {
+    "name": "Respiro e tamanho mínimo",
+    "path": "design-system/fundamentos/respiro-e-tamanho-minimo.html",
+    "subtitle": "x = metade da altura do símbolo",
+    "group": "Fundamentos",
+    "viewport": {
+      "width": 1120,
+      "height": 620
+    }
+  },
+  {
+    "name": "Usos incorretos",
+    "path": "design-system/fundamentos/usos-incorretos.html",
+    "subtitle": "Seis erros recorrentes",
+    "group": "Fundamentos",
+    "viewport": {
+      "width": 1120,
+      "height": 720
+    }
+  }
+]

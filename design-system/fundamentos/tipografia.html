@@ -1,0 +1,59 @@
+<!-- @dsCard group="Fundamentos" name="Tipografia" subtitle="Didact Gothic na marca, Inter no resto" width="1120" height="640" -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Tipografia — Doc Virtual</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Didact+Gothic&display=swap">
+<style>
+    :root { color-scheme: light; }
+    body { margin: 0; font-family: Inter, system-ui, sans-serif; background: #ffffff;
+           color: #102a43; -webkit-font-smoothing: antialiased; }
+    a { color: #2563eb; } a:hover { color: #1d4ed8; }
+    .eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 0.14em;
+               text-transform: uppercase; color: #829ab1; }
+    .h { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; color: #102a43; }
+    .lead { font-size: 14px; line-height: 1.6; color: #486581; }
+    .meta { font-size: 12px; color: #829ab1; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .panel { border: 1px solid #d9e2ec; background: #ffffff; }
+
+    .frame { width: 1120px; height: 640px; box-sizing: border-box; padding: 36px 40px;
+              display: flex; flex-direction: column; gap: 22px; }
+</style>
+</head>
+<body>
+<div class="frame">
+<div style="display: flex; flex-direction: column; gap: 6px"><div class="eyebrow">Fundamentos</div><div class="h">Tipografia</div><div class="lead" style="max-width: 620px; margin-top: 2px">Duas fontes com papéis separados: uma desenha a marca, a outra escreve tudo o resto.</div></div>
+  <div style="flex-grow: 1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px">
+    <div class="panel" style="display: flex; flex-direction: column">
+      <div style="padding: 24px 26px 20px; border-bottom: 1px solid #d9e2ec">
+        <div class="eyebrow">Marca</div>
+        <div style="font-size: 21px; font-weight: 600; margin-top: 4px">Didact Gothic</div>
+        <div class="meta" style="margin-top: 2px">Google Fonts · um peso</div>
+      </div>
+      <div style="padding: 24px 26px; display: flex; flex-direction: column; gap: 14px; flex-grow: 1">
+        <div style="font-family: 'Didact Gothic', system-ui, sans-serif; font-size: 46px; line-height: 1.15">virtual</div>
+        <div style="font-family: 'Didact Gothic', system-ui, sans-serif; font-size: 26px; color: #00366D; letter-spacing: 0.06em">GED</div>
+        <div style="font-family: 'Didact Gothic', system-ui, sans-serif; font-size: 15px; color: #486581; line-height: 1.5">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz 0123456789</div>
+      </div>
+      <div style="padding: 16px 26px 20px; border-top: 1px solid #d9e2ec" class="lead">Nos arquivos do logo ela já está convertida em curvas — a fonte só é necessária para criar peças novas com o mesmo lettering.</div>
+    </div>
+    <div class="panel" style="display: flex; flex-direction: column">
+      <div style="padding: 24px 26px 20px; border-bottom: 1px solid #d9e2ec">
+        <div class="eyebrow">Interface e texto</div>
+        <div style="font-size: 21px; font-weight: 600; margin-top: 4px">Inter</div>
+        <div class="meta" style="margin-top: 2px">400 · 500 · 600 · 700</div>
+      </div>
+      <div style="padding: 24px 26px; display: flex; flex-direction: column; gap: 16px; flex-grow: 1">
+        <div style="display: flex; align-items: baseline; gap: 18px"><div class="mono" style="width: 84px; font-size: 11px; color: #829ab1">40 / 700</div><div style="font-size: 30px; font-weight: 700; letter-spacing: -0.02em">Título</div></div>
+        <div style="display: flex; align-items: baseline; gap: 18px"><div class="mono" style="width: 84px; font-size: 11px; color: #829ab1">20 / 600</div><div style="font-size: 19px; font-weight: 600">Subtítulo de seção</div></div>
+        <div style="display: flex; align-items: baseline; gap: 18px"><div class="mono" style="width: 84px; font-size: 11px; color: #829ab1">15 / 400</div><div style="font-size: 15px; color: #334e68">Corpo de texto, altura de linha 1,6.</div></div>
+        <div style="display: flex; align-items: baseline; gap: 18px"><div class="mono" style="width: 84px; font-size: 11px; color: #829ab1">11 / 600</div><div class="eyebrow" style="color: #627d98">Rótulo</div></div>
+      </div>
+      <div style="padding: 16px 26px 20px; border-top: 1px solid #d9e2ec" class="lead">Já é a fonte do site. Todo texto fora do logo usa Inter — inclusive quando o nome “Doc Virtual” aparece escrito, e não como marca.</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
